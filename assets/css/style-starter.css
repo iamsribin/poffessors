@@ -14062,7 +14062,7 @@ a.text-dark:focus {
   overflow: visible;
   clip: auto;
 }
-
+/* #fcf1e7*/
 :root {
   --theme-color: #e40000;
   --primary-color: #0d369f;
@@ -17328,7 +17328,24 @@ h3.title-big {
   margin-bottom: 16px;
   border-radius: 8px;
 }
-
+.cours{
+  color: var(--heading-color);
+  background: var(--bg-grey);
+  border: 1px solid var(--border-color-light);
+  width: 150px ;
+   border:2px solid rgb(3, 255, 57);
+   padding: 10px;
+   border-radius: 25px;
+}
+.gender{
+  color: var(--heading-color);
+  background: var(--bg-grey);
+  border: 1px solid var(--border-color-light);
+  width: 90px; 
+    border: 2px solid rgb(53, 52, 52);
+     padding: 10px;
+      border-radius: 25px;
+}
 .cont-left.text-center span.fa {
   color: var(--secondary-color);
   font-size: 20px;
