@@ -15223,6 +15223,7 @@ button.search-btn:hover {
 
   .navbar .navbar-brand img {
     max-width: 54px;
+
   }
 
   .navbar-toggler {
@@ -17333,18 +17334,30 @@ h3.title-big {
   background: var(--bg-grey);
   border: 1px solid var(--border-color-light);
   width: 150px ;
-   border:2px solid rgb(3, 255, 57);
+  border-color: var(--secondary-color);
+  transition: 0.3s ease-out;
    padding: 10px;
    border-radius: 25px;
 }
+.cours:hover{
+  border-color: var(--primary-color);
+  transition: 0.3s ease-out;
+}
+
+
 .gender{
   color: var(--heading-color);
   background: var(--bg-grey);
   border: 1px solid var(--border-color-light);
   width: 90px; 
-    border: 2px solid rgb(53, 52, 52);
-     padding: 10px;
-      border-radius: 25px;
+  border-color: var(--secondary-color);
+  transition: 0.3s ease-out;
+  padding: 10px;
+  border-radius: 25px;
+}
+.gender:hover{
+  border-color: var(--primary-color);
+  transition: 0.3s ease-out;
 }
 .cont-left.text-center span.fa {
   color: var(--secondary-color);
