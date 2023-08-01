@@ -749,7 +749,13 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-
+.row-number{
+  display: flex;
+ justify-content: space-around;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; 
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -16898,7 +16904,6 @@ h3.title-style {
   color: var(--heading-color);
   font-weight: 600;
 }
-
 .w3l-forms-9 .main-midd p {
   font-size: 15px;
   color: var(--font-color);
@@ -17033,7 +17038,7 @@ h3.title-style {
   z-index: 1;
 }
 .inner-banner-program{
-  background: url(../images/banner-program.jfif) no-repeat center;
+  background: url(../images/banner-program.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
